@@ -16,12 +16,9 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: sirumallasunnydeva@gmail.com
-          password: Satyam@1969
-      - name: ls and pwd
-        run: |
-          ls -ltrh 
-          pwd
+          username: 
+          password:
+
 
       - name: Build and push Docker image
         run: |
