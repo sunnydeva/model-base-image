@@ -1,4 +1,6 @@
-FROM python:3.12-slim
+ARG BASE_IMAGE=${BASE_IMAGE}
+
+FROM python:$BASE_IMAGE-slim
 
 WORKDIR /app
 
