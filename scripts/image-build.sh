@@ -7,7 +7,7 @@ set -e
 image_build() {
     echo "Building Docker image..."
     IMAGE_NAME="model-base-image"
-    docker build -t $IMAGE_NAME -f ../docker/Dockerfile .
+    docker build -t $IMAGE_NAME -f ./docker/Dockerfile .
     echo "Docker image '$IMAGE_NAME' built successfully."
 
 }
