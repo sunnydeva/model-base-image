@@ -26,5 +26,5 @@ jobs:
       - name: Build and push Docker image
         run: |
           ls ./scripts -ltrh
-          chmod +x ./scripts/image-build.sh
+          # chmod +x ./scripts/image-build.sh
           bash ./scripts/image-build.sh
