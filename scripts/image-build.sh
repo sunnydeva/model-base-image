@@ -29,3 +29,4 @@ image_push() {
  
 # Main script execution
 image_build
+image_push
