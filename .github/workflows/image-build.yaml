@@ -19,9 +19,12 @@ jobs:
           username: sirumallasunnydeva@gmail.com
           password: Satyam@1969
       - name: ls and pwd
-        run: ls -ltrh && pwd
+        run: |
+          ls -ltrh 
+          pwd
 
       - name: Build and push Docker image
         run: |
+          ls -ltrh
           chmod +x ./scripts/image-build.sh
           bash ./scripts/image-build.sh
